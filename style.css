@@ -1,0 +1,255 @@
+.header{
+    width: 1300px;
+    height: 650px;
+    background-color: antiquewhite;
+}
+.container{
+    display: flex;
+    gap:650px;
+    margin-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+    display: flex;
+    gap:50px;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.title{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:xx-large;
+}
+p{
+    text-align: center;
+}
+.btn{
+    /* position: absolute; */
+    margin-left: 43%;
+    width: 180px;
+    height: 64px;
+    font-size: medium;
+    background-color:rgb(255, 123, 0);
+    border-radius: 5px;
+    border-color: rgb(255, 94, 0);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner{
+    
+    width: 640px;
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 25%;
+}
+.quick_list{
+    display: flex;
+}
+.picture{
+    height: 450px;
+    width: 420px;
+    margin-left: 300px;
+    display: grid;
+    grid-template-columns:170px 170px;
+    grid-template-rows: 190px 190px;
+   
+}
+.team{
+  width:160px;
+  height: 180px;
+  margin-top: 40px;
+  margin-left: 50px;
+  border-radius: 2px;
+  /* margin-left: 10px;
+  margin-top: 10px; */
+  
+}
+h1{
+    margin-top: 150px;
+}
+.passage,c{
+    font-size: smaller;
+    color:rgba(0, 0, 0, 0.39)
+}
+m{
+    font-size: smaller;
+    color:rgba(0, 0, 0, 0.39) 
+}
+.btn1{
+    margin-left: 5px;
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    font-size: medium;
+    background-color:rgb(255, 123, 0);
+    border-radius: 5px;
+    border-color: rgb(255, 94, 0);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.features{
+    display: flex;
+}
+.description{
+    height: 630px;
+    width: 420px;
+    margin-left: 300px;
+    
+}
+h2{
+    margin-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Desktop{
+    margin-left: 25px;
+}
+.architect{
+    width:350px;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.btn2,.btn3{
+    margin-left: 70%;
+    /* margin-bottom: 60px; */
+   
+    /* margin-top: 5px; */
+    width: 180px;
+    height: 100px;
+    font-size: medium;
+    background-color:rgb(255, 123, 0);
+    border-radius: 5px;
+    border-color: rgb(255, 94, 0);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn2{
+  position:relative;
+}
+.btn3{
+    width:300px;
+    height: 100px;
+    margin-top: 50%;
+    margin-left: 80%;
+}
+.facts{
+    height: 430px;
+    width: 800px;
+    margin-left: 300px;
+    
+}
+.box{
+    box-sizing: border-box;
+
+
+width: 150px;
+height: 150px;
+margin-left: 28px;
+margin-top: 60px;
+border: 1px solid #FF900E;
+border-radius: 8px;
+transition:border 2s;
+/* text-align: center; */
+
+}
+.box:hover{
+  border:4px;
+  border-color: aqua;
+}
+.rectangle{
+    display: flex;
+    gap: 10px;
+}
+.ribon,.projects,.clients,.email{
+    
+    margin-left: 45px;
+    margin-top: 40px;
+    
+}
+.text{
+   margin-left: 60px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: larger;
+}
+.sponsers{
+    height: 430px;
+    width: 800px;
+    margin-left: 300px;
+   text-align: center;
+    
+}
+.pic_sponsors{
+    display: grid;
+    grid-template-columns: 10px 10px 10px 10px 10px;
+    grid-template-rows: 5px;
+    gap:150px;
+}
+.amazon{
+    width:70px;
+    height:30px;
+}
+.home{
+    width: 700px;
+    height: 500px;
+    margin-left: 300px;
+    display: flex;
+   /* background-color:lightseagreen; */
+   background-image: url("images/home.jpg");
+   font-style: italic;
+   color: white;
+   font-size: xx-large;
+   transition: width 5s;
+  
+}
+.home:hover{
+    transform: skewY(5deg);
+    width:800px;
+}
+.passion{
+    width:200px;
+}
+.home_jpg{
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+
+.footer{
+    width:800px;
+    height: 50px;
+    background-color:lightpink;
+    margin-left: 23%;
+    margin-top: 50px;
+   text-align: center;
+}
+
+ @media screen and (max-width:555px){
+    .nav{
+       display: grid;
+       grid-template-columns: auto;
+       gap:2px;
+      margin:0px;
+    }
+    .header{
+        height: 850px;
+    }
+    .banner{
+        width:550px;
+    }
+    .quick_list,.picture{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    h1{
+        margin-left: 300px;
+        margin-top: 400px;
+        text-align: center;
+    }
+    passage{
+        text-align: center;
+    }
+    .description{
+        margin-top: 450px;
+    }
+ } 
